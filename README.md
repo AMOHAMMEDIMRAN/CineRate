@@ -1,6 +1,3 @@
-Here's your updated `README.md` with the **demo link** included:
-
-```markdown
 # CineRate - Movie Rating App
 
 **CineRate** is a modern movie rating and browsing web application built with **React**, **Tailwind CSS**, and **DaisyUI**. The app fetches movie data from **The Movie Database (TMDb) API** and displays a list of movies currently playing in theaters. It offers a clean, responsive user interface where users can explore movie details such as title, overview, and images.
