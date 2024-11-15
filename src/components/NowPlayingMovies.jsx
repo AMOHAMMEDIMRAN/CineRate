@@ -1,8 +1,12 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+
 
 const NowPlayingMovies = () => {
   const [movies, setMovies] = useState([]);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,7 +40,7 @@ const NowPlayingMovies = () => {
             <figure>
               <img
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                alt="Movie"
+                alt={movie.original_title}
                 className="rounded-[20px]"
               />
             </figure>
@@ -45,7 +49,9 @@ const NowPlayingMovies = () => {
               <p className="line-clamp-3">{movie.overview}</p>
               <p> <span className="font-semibold">Release:</span> {movie.release_date}</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-active text-[#fff]">Watch</button>
+                <Link to={`/movie/${movie.id}`}>
+                <button className="btn btn-active text-[#fff]">See Details</button>
+                </Link>
               </div>
             </div>
           

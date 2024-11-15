@@ -58,13 +58,13 @@ You can check out the live demo of the app here: [CineRate Demo](https://cinerat
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
 
 Made with 💙 by [AMOHAMMEDIMRAN](https://github.com/AMOHAMMEDIMRAN)
-```
+
 
 ### Key Updates:
 - Added the **Demo Link** to the top of the README for easy access to your live app.
 - The rest of the content remains the same, with instructions for setting up and running the app locally.
 
 This should make your **CineRate** project even more accessible to others! Let me know if you need further changes.
+---
