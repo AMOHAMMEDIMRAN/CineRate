@@ -1,7 +1,7 @@
 
 // // Now playing 
 
-// https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1
+// `https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&page=1`
 
 // // Popular
 
@@ -9,7 +9,7 @@
 
 // // Top Rated
 
-// https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1
+// `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&page=1`
 
 // // Upcoming
 

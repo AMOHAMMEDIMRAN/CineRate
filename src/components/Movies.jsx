@@ -1,5 +1,9 @@
+import Footer from "./Footer";
 import Header from "./Header";
 import NowPlayingMovies from "./NowPlayingMovies";
+import PopularMovies from "./PopularMovies";
+import TopRatedMovies from "./TopRatedMovies";
+import UpcomingMovies from "./UpcomingMovies";
 
 const Movies = () => {
   return (
@@ -7,6 +11,10 @@ const Movies = () => {
       <Header />
       <div>
         <NowPlayingMovies />
+        <PopularMovies />
+        <TopRatedMovies />
+        <UpcomingMovies />
+        <Footer />
       </div>
     </div>
   );
