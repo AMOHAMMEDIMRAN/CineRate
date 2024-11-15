@@ -13,12 +13,8 @@
 
 // // Upcoming
 
-// https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1
-
-// // Search 
-
-// https://api.themoviedb.org/3/search/movie?query=goat&include_adult=false&language=en-US&page=1
-
+// `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&page=1`
 
 // // movie details
-// https://api.themoviedb.org/3/movie/{movie_id}?language=en-US
+
+// `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`
